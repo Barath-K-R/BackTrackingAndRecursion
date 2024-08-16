@@ -13,7 +13,7 @@ public class SubsetUsingIteration {
 			start=0;
 			if(j>0 && arr[j]==arr[j-1]) {
 				start=end+1;
-			}
+			} 
 			end=outerList.size()-1;
 			int n=outerList.size();
 			for(int i=start;i<n;++i) {
